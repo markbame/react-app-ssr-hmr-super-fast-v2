@@ -1,5 +1,7 @@
 #Super Fast and light weight bundles
 
+## SPA SSR and HMR feature
+
 you can also pre transpile before running in production
 ## Getting started
 
@@ -9,6 +11,10 @@ you can also pre transpile before running in production
 * run `yarn prod` - for production deployment
 * run `yarn lint` - for linting
 * run `yarn build` - for production build
+
+## uses react16 and webpack4
+
+### node_modules has been included in-case you are having trouble with dependencies, just add it to .gitignore if you don't need it.
 
 ### formatting, es2017+, etc.
 
