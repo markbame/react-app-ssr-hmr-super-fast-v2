@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+    link(rel='stylesheet', type="text/css", href='//cdn.muicss.com/mui-0.10.1/css/mui.min.css')
+    meta(name='viewport',  content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+  body
+    block content
+    if pageStatus
+      script(type='text/javascript', src='/javascripts/1.app.js')
+      script(type='text/javascript', src='/javascripts/app.js')
